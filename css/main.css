@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {font-family: "LuloCleanW01-OneBold"; src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot"); src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg"); } 
+@font-face {font-family: "Avenir"; src: url("//db.onlinewebfonts.com/t/05663321f7477456a65e0c363c777377.eot"); src: url("//db.onlinewebfonts.com/t/05663321f7477456a65e0c363c777377.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/05663321f7477456a65e0c363c777377.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/05663321f7477456a65e0c363c777377.woff") format("woff"), url("//db.onlinewebfonts.com/t/05663321f7477456a65e0c363c777377.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/05663321f7477456a65e0c363c777377.svg#Avenir") format("svg"); } 
+/* @import url(//db.onlinewebfonts.com/c/e5f78b4fb90a80a32be156470cbfead1?family=Avenir+LT+Pro); */
+/* @import url(//db.onlinewebfonts.com/c/d1bfb85795ca505281f9cee67b285c9a?family=Avenir+LT+Pro); */
+
+body {
+  background: black;
+  background-color: black;
+}
+
+.wrapper {
+  width: 95%;
+  margin: auto;
+}
+
+header {
+  height: 188px;
+}
+
+header h1 {
+  margin-top: 45px;
+  text-align: center;
+  color: white;
+  font-family: "LuloCleanW01-OneBold";
+  font-size: 33pt;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+header nav {
+  margin-top: 25px;
+  font-family: "LuloCleanW01-OneBold";
+  font-size: 10.5pt;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  height: 50px;
+}
+
+header nav ul {
+  text-align: center;
+}
+
+header nav ul li {
+  /* width: 140px; */
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+main div.picture {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: white;
+}
+
+div#inner-picture {
+  width: 700px;
+  padding-bottom: 45px;
+}
+
+main div {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+main div img {
+  margin-top: 30px;
+  border-radius: 50%;
+}
+
+h2, main#content p {
+  margin-top: 30px;
+  font-family: "Avenir";
+  font-weight: 100;
+  font-size: 20pt;
+  color: gray;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "LuloCleanW01-OneBold";
+  font-size: 10pt;
+}
+
+a:hover {
+  color: yellow;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+#socialmedia {
+  display: inline;
+  text-align: center;
+}
+
+main#content {
+  height: 543px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+main#content p {
+  padding: 10px;
+  text-align: center;
+}
+
+main#content ul {  
+  /* width: 700px; */
+  padding: 20px;
+  text-align: center;
+}
+
+.inline {
+  display: inline;
+  padding: 10px;
+}  
+
+.languages {
+  width: 90px;  
+}
+
+main#content ul li {
+  margin-left: 20px;  
+  list-style-type: disc;
+  text-align: left;
+  font-family: "Avenir";
+  font-size: 18pt;
+  color: gray;
+  padding: 10px;
+}  
+
+main#content ul li a {
+  color: gray;
+}
+
+
+
+
+/* .container_p {
+  margin: auto;
+  width: 700px;
+} */
